@@ -369,7 +369,7 @@
         grid-template: 1fr 1fr/1fr 1fr;
     }
 }
-@media(max-width:600px){
+@media screen and (max-width:600px){
     .f2-box{
         height: 400px;
     }
@@ -454,7 +454,7 @@
         height: 120px;
     }
 }
-@media(max-width:450px){
+@media screen and (max-width:450px){
     .search-select{
         width: 30px;
     }
@@ -503,7 +503,7 @@
         height: 80px;
     }
 }
-@media(max-width:400px){
+@media screen and (max-width:400px){
     .nav-account
     {
         display: none;
