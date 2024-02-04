@@ -454,3 +454,70 @@
         height: 120px;
     }
 }
+@media(max-width:450px){
+    .search-select{
+        width: 30px;
+    }
+    .hero{
+        height: 200px;
+    }
+    .hero p{
+        height: 50px;
+        font-size: 12px;
+        padding: 5px;
+        margin-bottom: 15px;
+    }
+    .shop{
+        display: grid;
+        grid-template: 1fr 1fr/1fr 1fr;
+    }
+    .box{
+        width: 90%;
+        margin-bottom: 20px;
+        margin-left: 15px;
+        height: 200px;
+    }
+    .shop2{
+        display: grid;
+        grid-template: 1fr 1fr/1fr 1fr;
+    }
+    .boximg{
+        height: 120px;
+        margin-top: 5px;
+    }
+    .box-cont h2{
+        font-size: 20px;
+        display: flex;
+    }
+    .box-cont{
+        margin: 8px;
+        margin-top: 0px;
+    }
+    .box9{
+        height: 150px;
+        width: 93%;
+        margin-bottom: 20px;
+    }
+    
+    .toy1{
+        height: 80px;
+    }
+}
+@media(max-width:400px){
+    .nav-account
+    {
+        display: none;
+    }
+    .nav-orders{
+        display: none;
+    }
+    .task-deals{
+        display: none;
+    }
+    .task{
+        justify-content: flex-start;
+    }
+    .task-menu{
+        margin-left: 0px;
+    }
+}
