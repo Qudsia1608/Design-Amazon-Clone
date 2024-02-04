@@ -1,0 +1,456 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    border: border-box;
+}
+/*nav bar*/
+.nav{
+    height: 60px;
+    background-color: #0f1111;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-logo{
+    height: 40px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    height: 30px;
+    width: 100px;
+    padding: 5px;
+}
+.nav-addr{
+    color: white;
+    padding: 5px;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+    border-radius: 5px;
+}
+.addr-icon{
+    display: flex;
+    align-items: center;
+}
+.addr-icon i{
+    margin-right: 5px;
+    margin-top: 5px;
+}
+.addr-icon p{
+    margin-top: 5px;
+}
+/*nav search*/
+.nav-search{
+    display: flex;
+    width: 620px;
+    height: 40px;
+    background-color: #0f1111;
+    border-radius: 5px;
+    border: 0;
+}
+.search-select{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: 0;
+    width: 100px;
+    background-color: rgb(220, 220, 220);
+}
+.nav-search:hover{
+    border: 3px solid rgb(255, 200, 99);
+}
+.search-inp{
+    width: 100%;
+    border: 0;
+    padding-left: 20px;
+    font-size: 1rem;
+}
+.search-icon{
+    background-color: rgb(255, 200, 99);
+    width: 50px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+/*nav account*/
+.nav-account p a{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
+.nav-account{
+    color: white;
+    font-size: 17px;
+    padding: 5px;
+}
+.nav-orders{
+    padding: 5px;
+}
+.nav-orders a{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 50;
+}
+#p2{
+    font-size: 17px;
+}
+.nav-cart{
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+}
+.cart-icon{
+    font-size: 20px;
+    padding: 7px;
+    padding-left: 0;
+}
+
+/*task bar*/
+.task{
+    background-color: #242d40;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 15px;
+}
+.task-menu{
+    display: flex;
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.task-menu i{
+    margin-right: 7px;
+    font-size: 20px;
+}
+.task-list{
+    display: flex;
+    width: 100%;
+}
+.task-deals{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: underline;
+}
+.task-list p{
+    margin-left: 15px;
+    padding: 10px;
+    border-radius: 5px;
+}
+/*hero section*/
+.hero{
+    height: 350px;
+    background-image: url(hero.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.hero p{
+    background-color: white;
+    color: #0f1111;
+    height: 40px;
+    width: 90%;
+    align-self: flex-end;
+    margin: 50px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero p a{
+    color:rgb(0, 120, 120);
+    font-weight: 300;
+    text-decoration: none;
+}
+/*shop section*/
+.shop{
+    display: flex;
+    justify-content: space-evenly;
+    background: linear-gradient(rgb(177, 0, 0), rgb(192, 67, 67),pink, rgb(255, 237, 237) ,rgb(232, 232, 232));
+}
+.shop2{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(232, 232, 232);
+}
+.box{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-bottom: 20px;
+}
+.boximg{
+    text-align: center;
+    height: 300px;
+    background-color: #0f1111;
+    margin-top: 10px;
+}
+.box-cont{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.box-cont p{
+    margin-top: 20px;
+    font-size: 15px;
+    color: #086ea5;
+    text-decoration: none;
+}
+.box-cont p a{
+    color: #086ea5;
+    text-decoration: none;
+}
+.box-cont p:hover{
+    text-decoration: underline;
+}
+.toys{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(232, 232, 232);
+}
+.box9{
+    height: 280px;
+    width: 97%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-bottom: 50px;
+}
+.toy-img{
+    margin: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.toy1{
+    height: 200px;
+    width: 200px;
+}
+/*footer*/
+.foot1{
+    background-color: #47586c;
+    height: 45px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot1 p a{
+    color: white;
+    text-decoration: none;
+}
+.foot1 p a:hover{
+    text-decoration: underline;
+    color: rgb(141, 159, 169);
+}
+.foot2{
+    background-color: #232f3e;
+    height: 200px;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    font-size: 17px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.foot2 ul a{
+    display: block;
+    color: white;
+    font-size: 13px;
+    text-decoration: none;
+    padding: 10px;
+}
+.foot2 ul a:hover{
+    text-decoration: underline;
+    color: rgb(141, 159, 169);
+}
+.foot2 ul p{
+    margin-left: 9px;
+    font-weight: bold;
+}
+.f2-box{
+    background-color: #232f3e;
+    height: 200px;
+}
+.foot3{
+    height: 70px;
+    background-color: #0f1111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.foot3 p{
+    padding: 30px;
+    margin-left: 20px;
+}
+@media(max-width:1000px){
+    .f2-box{
+        height: 300px;
+    }
+    .foot2{
+        height: 300px;
+        margin-left: 50px;
+        margin-right: 50px;
+        justify-content: space-evenly;
+        align-items:flex-start;
+    }
+    .foot2 ul{
+        margin-top: 50px;;
+    }
+    .logo{
+        height: 25px;
+        width: 70px;
+    }
+    .search-icon{
+        font-size: 15px;
+    }
+    .nav-account{
+        font-size: 13px;
+        padding: 5px;
+    }
+    .nav-account a{
+        font-size: 13px;
+    }
+    .nav-orders a{
+        font-size: 13px;
+    }
+    #p2{
+        font-size: 13px;
+    }
+    .task-list{
+        display: flex;
+        width: 70%;
+        font-size: 15px;
+        align-items: center;
+    }
+    .task-deals{
+        width: 100px;
+        padding: 10px;
+        font-size: 12px;
+        margin: 10px;
+        text-align: center;
+    }
+    .hero p{
+        height: 45px;
+        padding: 5px;
+    }
+    .shop{
+        display: grid;
+        grid-template: 1fr 1fr/1fr 1fr;
+    }
+    .box{
+        width: 90%;
+        margin-bottom: 20px;
+        margin-left: 15px;;
+    }
+    .shop2{
+        display: grid;
+        grid-template: 1fr 1fr/1fr 1fr;
+    }
+}
+@media(max-width:600px){
+    .f2-box{
+        height: 400px;
+    }
+    .foot2{
+        height: 400px;
+        margin-left: 50px;
+        margin-right: 50px;
+        justify-content: space-evenly;
+        align-items:flex-start;
+    }
+    .foot2 ul{
+        margin-top: 50px;;
+    }
+    .logo{
+        height: 15px;
+        width: 40px;
+    }
+    .nav-a{
+        font-size: 10px;
+    }
+    .nav-search{
+        height: 30px;
+        padding: 5px;
+        background-color: #0f1111;
+    }
+    .search-select{
+        width: 50px;
+    }
+    .search-inp{
+        padding-left: 5px;
+        font-size: 12px;
+    }
+    .search-icon{
+        font-size: 13px;
+    }
+    .nav-account{
+        font-size: 10px;
+        padding: 5px;
+    }
+    .nav-account a{
+        font-size: 10px;
+    }
+    .nav-orders a{
+        font-size: 10px;
+    }
+    #p2{
+        font-size: 10px;
+    }
+    .cart-icon{
+        font-size: 12px;
+        padding: 5px;
+    }
+    .task-list{
+        display: flex;
+        width: 70%;
+        font-size: 12px;
+        align-items: center;
+    }
+    .task-list p{
+        margin-left: 5px;
+        padding: 5px;
+        text-align: left;
+    }
+    .task-deals{
+        width: 100px;
+        padding: 10px;
+        font-size: 10px;
+        margin: 10px;
+        text-align: center;
+    }
+    .hero p{
+        height: 50px;
+        font-size: 12px;
+        padding: 5px;
+    }
+    .box9{
+        height: 200px;
+        width: 97%;
+        margin-bottom: 50px;
+    }
+    .toy1{
+        height: 120px;
+    }
+}
